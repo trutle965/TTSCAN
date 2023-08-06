@@ -12,17 +12,25 @@
 python  TTSCAN.py
 ```
 
-2.扫描单个url
+2.查看已有的poc列表
+
+```
+python  TTSCAN.py -l
+```
+
+3.扫描单个url
 
 ```
 python TTSCAN.py  -u http://www.xxx.com
 ```
 
-3.扫描多个url
+4.扫描多个url
 
 ```
 python TTSCAN.py  -f   urls.txt 
 ```
+
+## 其他功能
 
 ## 其他功能
 
