@@ -105,14 +105,13 @@ def main():
     # print_cool(ascii_alert)
     # 当指定参数就不打印帮助信息了
     if not (args.list or args.url or args.file or args.poc or args.attack or args.proxy or args.useragent):
-        print_cool("""\n████████ ████████ ███████  ██████  █████  ███    ██ 
-       ██       ██    ██      ██      ██   ██ ████   ██ 
-       ██       ██    ███████ ██      ███████ ██ ██  ██ 
-       ██       ██         ██ ██      ██   ██ ██  ██ ██ 
-       ██       ██    ███████  ██████ ██   ██ ██   ████ 
-                                                        
-                                                        """)
-        title = '                  { https://www.baidu.com  Bounty hunter }  Version 1.0\n\n'
+        print_cool("""████████ ████████ ███████  ██████  █████  ███    ██ 
+   ██       ██    ██      ██      ██   ██ ████   ██ 
+   ██       ██    ███████ ██      ███████ ██ ██  ██ 
+   ██       ██         ██ ██      ██   ██ ██  ██ ██ 
+   ██       ██    ███████  ██████ ██   ██ ██   ████ 
+                                                            """)
+        title = '                  { https://github.com/trutle965/TTSCAN  Author:Bounty hunter}  Version 1.0\n\n\n\n'
         print_cool(title)
         # 打印帮助信息
         print("            常用组合:")
