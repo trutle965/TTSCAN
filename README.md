@@ -30,7 +30,6 @@ python TTSCAN.py  -u http://www.xxx.com
 python TTSCAN.py  -f   urls.txt 
 ```
 
-## 其他功能
 
 ## 其他功能
 
