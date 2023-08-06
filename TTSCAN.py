@@ -138,7 +138,7 @@ def main():
     ug = None
     # 打印所有poc
     if args.list:
-        print_green("已更新poc如下:绿色代表可以进行exp攻击,默认上传冰蝎木马\n")
+        print_green("已更新poc如下:name为绿色代表可以进行攻击\n")
         for module_name, module in poc_modules.items():
             info = module.get_info()
             if info['Attack']:
